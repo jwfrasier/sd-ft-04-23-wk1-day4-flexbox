@@ -13,3 +13,21 @@ img {
   flex-wrap: wrap;
   gap: 20px;
 }
+
+@media (width <= 1000px) {
+  .flex-container {
+    display: grid;
+    background-color: brown;
+  }
+  img {
+    height: 150px;
+  }
+}
+
+@media (hover: hover) {
+  .flex-container:hover {
+    background-color: green;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+}
